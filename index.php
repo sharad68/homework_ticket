@@ -15,10 +15,9 @@ $ticket1 = new Ticket(12, 50)
 
 <body>
     <h1>product</h1>
-    public function getQuantity(): int
-    <p><?= $getQuantity() ?></p>
-    <p><?= $getUnitPrice() ?></p>
-    <p><?= $getTotal() ?></p>
+    <p><?= $ticket1->getquantity() ?></p>
+    <p><?= $ticket1->getunitPrice() ?></p>
+    <p><?= $ticket1->gettotal() ?></p>
 </body>
 
 </html>
